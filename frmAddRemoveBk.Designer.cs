@@ -81,21 +81,21 @@ namespace BookRegister
             this.txtBookTitle.Location = new System.Drawing.Point(67, 16);
             this.txtBookTitle.Name = "txtBookTitle";
             this.txtBookTitle.Size = new System.Drawing.Size(100, 20);
-            this.txtBookTitle.TabIndex = 7;
+            this.txtBookTitle.TabIndex = 0;
             // 
             // txtBookISBN
             // 
             this.txtBookISBN.Location = new System.Drawing.Point(67, 80);
             this.txtBookISBN.Name = "txtBookISBN";
             this.txtBookISBN.Size = new System.Drawing.Size(100, 20);
-            this.txtBookISBN.TabIndex = 8;
+            this.txtBookISBN.TabIndex = 1;
             // 
             // txtBookPrice
             // 
             this.txtBookPrice.Location = new System.Drawing.Point(67, 145);
             this.txtBookPrice.Name = "txtBookPrice";
             this.txtBookPrice.Size = new System.Drawing.Size(100, 20);
-            this.txtBookPrice.TabIndex = 9;
+            this.txtBookPrice.TabIndex = 2;
             // 
             // frmAddBook
             // 
@@ -109,7 +109,7 @@ namespace BookRegister
             this.Controls.Add(this.lblISBN);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnAddBookForm);
-            this.Name = "frmAddRemoveBook";
+            this.Name = "frmAddBook";
             this.Text = "Add/Remove Book";
             this.ResumeLayout(false);
             this.PerformLayout();

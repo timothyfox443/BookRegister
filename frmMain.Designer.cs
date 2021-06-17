@@ -56,7 +56,7 @@ namespace BookRegister
             this.lblTitle.Location = new System.Drawing.Point(26, 68);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(27, 13);
-            this.lblTitle.TabIndex = 1;
+            this.lblTitle.TabIndex = 8;
             this.lblTitle.Text = "Title";
             // 
             // lblDate
@@ -65,7 +65,7 @@ namespace BookRegister
             this.lblDate.Location = new System.Drawing.Point(26, 118);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(84, 13);
-            this.lblDate.TabIndex = 2;
+            this.lblDate.TabIndex = 9;
             this.lblDate.Text = "Date Registered";
             // 
             // dtbRegDate
@@ -74,7 +74,7 @@ namespace BookRegister
             this.dtbRegDate.Location = new System.Drawing.Point(130, 112);
             this.dtbRegDate.Name = "dtbRegDate";
             this.dtbRegDate.Size = new System.Drawing.Size(121, 20);
-            this.dtbRegDate.TabIndex = 3;
+            this.dtbRegDate.TabIndex = 2;
             // 
             // cmbBook
             // 
@@ -82,7 +82,7 @@ namespace BookRegister
             this.cmbBook.Location = new System.Drawing.Point(130, 65);
             this.cmbBook.Name = "cmbBook";
             this.cmbBook.Size = new System.Drawing.Size(121, 21);
-            this.cmbBook.TabIndex = 4;
+            this.cmbBook.TabIndex = 1;
             // 
             // cmbCustomer
             // 
@@ -90,14 +90,14 @@ namespace BookRegister
             this.cmbCustomer.Location = new System.Drawing.Point(130, 19);
             this.cmbCustomer.Name = "cmbCustomer";
             this.cmbCustomer.Size = new System.Drawing.Size(121, 21);
-            this.cmbCustomer.TabIndex = 5;
+            this.cmbCustomer.TabIndex = 0;
             // 
             // btnAddCustomer
             // 
             this.btnAddCustomer.Location = new System.Drawing.Point(279, 17);
             this.btnAddCustomer.Name = "btnAddCustomer";
             this.btnAddCustomer.Size = new System.Drawing.Size(86, 23);
-            this.btnAddCustomer.TabIndex = 6;
+            this.btnAddCustomer.TabIndex = 4;
             this.btnAddCustomer.Text = "Add Customer";
             this.btnAddCustomer.UseVisualStyleBackColor = true;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
@@ -107,7 +107,7 @@ namespace BookRegister
             this.btnAddBook.Location = new System.Drawing.Point(279, 63);
             this.btnAddBook.Name = "btnAddBook";
             this.btnAddBook.Size = new System.Drawing.Size(86, 23);
-            this.btnAddBook.TabIndex = 7;
+            this.btnAddBook.TabIndex = 5;
             this.btnAddBook.Text = "Add Book";
             this.btnAddBook.UseVisualStyleBackColor = true;
             this.btnAddBook.Click += new System.EventHandler(this.btnAddBook_Click);
@@ -117,7 +117,7 @@ namespace BookRegister
             this.btnRegister.Location = new System.Drawing.Point(69, 180);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(121, 23);
-            this.btnRegister.TabIndex = 8;
+            this.btnRegister.TabIndex = 3;
             this.btnRegister.Text = "Register Title";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
@@ -127,7 +127,7 @@ namespace BookRegister
             this.btnCancel.Location = new System.Drawing.Point(218, 180);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 9;
+            this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "Clear";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);

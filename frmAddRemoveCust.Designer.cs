@@ -46,7 +46,7 @@ namespace BookRegister
             this.lblAppelation.Location = new System.Drawing.Point(12, 103);
             this.lblAppelation.Name = "lblAppelation";
             this.lblAppelation.Size = new System.Drawing.Size(57, 13);
-            this.lblAppelation.TabIndex = 13;
+            this.lblAppelation.TabIndex = 7;
             this.lblAppelation.Text = "Appelation";
             this.lblAppelation.Click += new System.EventHandler(this.lblPrice_Click);
             // 
@@ -56,7 +56,7 @@ namespace BookRegister
             this.lblLastName.Location = new System.Drawing.Point(12, 59);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(58, 13);
-            this.lblLastName.TabIndex = 12;
+            this.lblLastName.TabIndex = 6;
             this.lblLastName.Text = "Last Name";
             // 
             // lblFirstName
@@ -65,7 +65,7 @@ namespace BookRegister
             this.lblFirstName.Location = new System.Drawing.Point(11, 17);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(57, 13);
-            this.lblFirstName.TabIndex = 11;
+            this.lblFirstName.TabIndex = 5;
             this.lblFirstName.Text = "First Name";
             // 
             // btnAddCustomer
@@ -73,7 +73,7 @@ namespace BookRegister
             this.btnAddCustomer.Location = new System.Drawing.Point(88, 190);
             this.btnAddCustomer.Name = "btnAddCustomer";
             this.btnAddCustomer.Size = new System.Drawing.Size(86, 23);
-            this.btnAddCustomer.TabIndex = 10;
+            this.btnAddCustomer.TabIndex = 4;
             this.btnAddCustomer.Text = "Add Customer";
             this.btnAddCustomer.UseVisualStyleBackColor = true;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
@@ -84,7 +84,7 @@ namespace BookRegister
             this.lblDOB.Location = new System.Drawing.Point(11, 153);
             this.lblDOB.Name = "lblDOB";
             this.lblDOB.Size = new System.Drawing.Size(66, 13);
-            this.lblDOB.TabIndex = 16;
+            this.lblDOB.TabIndex = 8;
             this.lblDOB.Text = "Date of Birth";
             // 
             // dtpDOB
@@ -94,28 +94,28 @@ namespace BookRegister
             this.dtpDOB.Location = new System.Drawing.Point(88, 147);
             this.dtpDOB.Name = "dtpDOB";
             this.dtpDOB.Size = new System.Drawing.Size(121, 20);
-            this.dtpDOB.TabIndex = 17;
+            this.dtpDOB.TabIndex = 3;
             // 
             // txtAppelation
             // 
             this.txtAppelation.Location = new System.Drawing.Point(88, 100);
             this.txtAppelation.Name = "txtAppelation";
             this.txtAppelation.Size = new System.Drawing.Size(121, 20);
-            this.txtAppelation.TabIndex = 19;
+            this.txtAppelation.TabIndex = 2;
             // 
             // txtLName
             // 
             this.txtLName.Location = new System.Drawing.Point(88, 56);
             this.txtLName.Name = "txtLName";
             this.txtLName.Size = new System.Drawing.Size(121, 20);
-            this.txtLName.TabIndex = 20;
+            this.txtLName.TabIndex = 1;
             // 
             // txtFName
             // 
             this.txtFName.Location = new System.Drawing.Point(88, 14);
             this.txtFName.Name = "txtFName";
             this.txtFName.Size = new System.Drawing.Size(121, 20);
-            this.txtFName.TabIndex = 21;
+            this.txtFName.TabIndex = 0;
             // 
             // frmAddRemoveCust
             // 
