@@ -64,9 +64,10 @@ namespace BookRegister
         private void btnRegister_Click(object sender, EventArgs e)
         {
             Book newBook = cmbBook.SelectedItem as Book;
+            Customer newCustomer = cmbCustomer.SelectedItem as Customer;
             Registration newRegistration = new Registration
             {
-                CustomerID = cmbCustomer.SelectedIndex + 1,
+                CustomerID = newCustomer.CustomerID,
                 ISBN = newBook.ISBN,
                 RegDate = dtbRegDate.Value
 

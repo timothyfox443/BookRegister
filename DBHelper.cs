@@ -13,7 +13,7 @@ namespace BookRegister
         {
             //create connection to DB
             SqlConnection connectDB =
-                new SqlConnection("Data Source=localhost;" +
+                new SqlConnection("Data Source=localhost;" + 
                                     "Initial Catalog=BookRegistration;" +
                                     "Integrated Security=True;");
             //SqlConnection con = new SqlConnection();
